@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome Product </title>
+</head>
+<div>
+    <h1>My Awesome Product Page</h1>
+    <div>
+        <b> <span data-bind="text: displayMessage "></span></b>
+    </div>
+    <input data-bind="value: idToFetch">
+    <button data-bind="click: getProduct"> get Product</button>
+    <div data-bind="with: displayProduct">
+        <table>
+            <thead>
+            <tr>
+                <th>id</th><th>name</th><th>price</th><th>quantity</th><th></th><th></th>
+            </tr>
+            </thead>
+            <tbody >
+            <tr>
+                <td><span data-bind="text: id"></span></td>
+                <td><span data-bind="text: name"></span></td>
+                <td> <span data-bind="text: price"></span></td>
+                <td><span data-bind="text: quantity"></span></td>
+            </tr>
+            </tbody>
+        </table>
+
+    </div>
+    <button data-bind="click: addProduct"> add Product</button>
+    <div data-bind="with: newProduct">
+        <b>
+            <label>name</label><input data-bind="value: name">
+            <label>price</label><input data-bind="value: price">
+            <label>quantity</label><input data-bind="value: quantity">
+        </b>
+<button data-bind="click: $parent.saveProduct">save Product</button>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>id</th><th>name</th><th>price</th><th>quantity</th><th></th><th></th>
+            </tr>
+        </thead>
+        <tbody data-bind="foreach : products">
+            <tr>
+                <td><span data-bind="text: $data.id"></span></td>
+                <td><input data-bind="value: $data.name ,enable:$data.selected"/></td>
+                <td><input data-bind="value: $data.price,enable:$data.selected"/></td>
+                <td><input data-bind="value: $data.quantity,enable:$data.selected"/></td>
+                <td><button data-bind="click: $data.enableEdit">edit</button></td>
+                <td><button data-bind="click: $parent.editProduct">save</button></td>
+                <td><button data-bind="click: $parent.deleteProduct">delete</button></td>
+            </tr>
+        </tbody>
+
+    </table>
+</div>
+<body>
+<script src="knockout-3.4.2.js" type="text/javascript"></script>
+<script src="jquery-3.3.1.min.js" type="text/javascript"></script>
+<script src="productviewmodel.js" type="text/javascript"></script>
+</body>
+</html>

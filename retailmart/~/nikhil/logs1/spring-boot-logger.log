@@ -1,0 +1,160 @@
+2018-12-17 14:07:45,212 INFO org.springframework.boot.StartupInfoLogger [main] Starting RetailmartApplication on PUNnsharma92HTD6.local with PID 18530 (/Users/nsharma/practiseWorkspace/retailmart/target/classes started by nsharma in /Users/nsharma/practiseWorkspace/retailmart)
+2018-12-17 14:07:45,215 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2018-12-17 14:07:45,646 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-17 14:07:45,687 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 36ms. Found 1 repository interfaces.
+2018-12-17 14:07:45,923 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6072494a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-17 14:07:46,129 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2018-12-17 14:07:46,143 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-17 14:07:46,152 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2018-12-17 14:07:46,153 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-17 14:07:46,158 INFO org.apache.juli.logging.DirectJDKLog [main] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/nsharma/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-12-17 14:07:46,238 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2018-12-17 14:07:46,239 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 997 ms
+2018-12-17 14:07:46,340 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2018-12-17 14:07:46,430 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2018-12-17 14:07:46,524 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-12-17 14:07:46,572 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.7.Final}
+2018-12-17 14:07:46,573 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2018-12-17 14:07:46,674 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-12-17 14:07:46,763 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-12-17 14:07:47,230 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [main] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@6436e181'
+2018-12-17 14:07:47,233 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-12-17 14:07:47,594 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-17 14:07:47,625 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-12-17 14:07:47,700 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2018-12-17 14:07:47,772 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2018-12-17 14:07:47,794 INFO org.apache.juli.logging.DirectJDKLog [main] Using a shared selector for servlet write/read
+2018-12-17 14:07:47,803 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-17 14:07:47,806 INFO org.springframework.boot.StartupInfoLogger [main] Started RetailmartApplication in 22.887 seconds (JVM running for 28.52)
+2018-12-17 14:10:54,411 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-17 14:10:54,412 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2018-12-17 14:10:54,433 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 21 ms
+2018-12-17 14:10:54,487 INFO com.mobilelive.nikhil.retailmart.service.impl.ProductServiceImpl [http-nio-8080-exec-1] request to get all products
+2018-12-17 14:10:54,548 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [http-nio-8080-exec-1] HHH000397: Using ASTQueryTranslatorFactory
+2018-12-17 14:14:02,578 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-48] Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-17 14:14:02,579 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-48] Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-12-17 14:14:02,580 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [Thread-48] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2018-12-17 14:14:02,587 INFO com.zaxxer.hikari.HikariDataSource [Thread-48] HikariPool-1 - Shutdown initiated...
+2018-12-17 14:14:02,590 INFO com.zaxxer.hikari.HikariDataSource [Thread-48] HikariPool-1 - Shutdown completed.
+2018-12-17 14:14:32,028 INFO org.springframework.boot.StartupInfoLogger [main] Starting RetailmartApplication on PUNnsharma92HTD6.local with PID 18644 (/Users/nsharma/practiseWorkspace/retailmart/target/classes started by nsharma in /Users/nsharma/practiseWorkspace/retailmart)
+2018-12-17 14:14:32,031 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2018-12-17 14:14:32,465 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-17 14:14:32,507 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 37ms. Found 1 repository interfaces.
+2018-12-17 14:14:32,745 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$70938472] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-17 14:14:32,948 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2018-12-17 14:14:32,962 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-17 14:14:32,974 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2018-12-17 14:14:32,975 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-17 14:14:32,982 INFO org.apache.juli.logging.DirectJDKLog [main] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/nsharma/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-12-17 14:14:33,063 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2018-12-17 14:14:33,063 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1006 ms
+2018-12-17 14:14:33,155 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2018-12-17 14:14:33,275 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2018-12-17 14:14:33,382 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-12-17 14:14:33,437 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.7.Final}
+2018-12-17 14:14:33,438 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2018-12-17 14:14:33,519 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-12-17 14:14:33,623 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-12-17 14:14:34,107 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [main] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@46fb0c33'
+2018-12-17 14:14:34,109 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-12-17 14:14:34,455 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-17 14:14:34,484 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-12-17 14:14:34,557 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2018-12-17 14:14:34,641 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2018-12-17 14:14:34,662 INFO org.apache.juli.logging.DirectJDKLog [main] Using a shared selector for servlet write/read
+2018-12-17 14:14:34,674 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-17 14:14:34,681 INFO org.springframework.boot.StartupInfoLogger [main] Started RetailmartApplication in 22.925 seconds (JVM running for 28.687)
+2018-12-17 14:14:48,207 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-17 14:14:48,208 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2018-12-17 14:14:48,215 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 7 ms
+2018-12-17 14:14:48,282 INFO com.mobilelive.nikhil.retailmart.service.impl.ProductServiceImpl [http-nio-8080-exec-1] request to get all products
+2018-12-17 14:14:48,330 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [http-nio-8080-exec-1] HHH000397: Using ASTQueryTranslatorFactory
+2018-12-17 14:20:51,976 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-48] Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-17 14:20:51,977 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-48] Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-12-17 14:20:51,978 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [Thread-48] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2018-12-17 14:20:51,984 INFO com.zaxxer.hikari.HikariDataSource [Thread-48] HikariPool-1 - Shutdown initiated...
+2018-12-17 14:20:51,987 INFO com.zaxxer.hikari.HikariDataSource [Thread-48] HikariPool-1 - Shutdown completed.
+2018-12-17 14:21:40,306 INFO org.springframework.boot.StartupInfoLogger [main] Starting RetailmartApplication on PUNnsharma92HTD6.local with PID 18656 (/Users/nsharma/practiseWorkspace/retailmart/target/classes started by nsharma in /Users/nsharma/practiseWorkspace/retailmart)
+2018-12-17 14:21:40,309 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2018-12-17 14:21:40,742 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-17 14:21:40,783 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 37ms. Found 1 repository interfaces.
+2018-12-17 14:21:41,025 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bf474b30] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-17 14:21:41,228 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2018-12-17 14:21:41,237 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-17 14:21:41,247 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2018-12-17 14:21:41,248 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-17 14:21:41,256 INFO org.apache.juli.logging.DirectJDKLog [main] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/nsharma/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-12-17 14:21:41,335 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2018-12-17 14:21:41,336 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1001 ms
+2018-12-17 14:21:41,436 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2018-12-17 14:21:41,545 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2018-12-17 14:21:41,642 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-12-17 14:21:41,683 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.7.Final}
+2018-12-17 14:21:41,684 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2018-12-17 14:21:41,768 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-12-17 14:21:41,908 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-12-17 14:21:42,350 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [main] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@65514add'
+2018-12-17 14:21:42,353 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-12-17 14:21:42,694 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-17 14:21:42,722 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-12-17 14:21:42,802 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2018-12-17 14:21:42,888 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2018-12-17 14:21:42,916 INFO org.apache.juli.logging.DirectJDKLog [main] Using a shared selector for servlet write/read
+2018-12-17 14:21:42,931 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-17 14:21:42,934 INFO org.springframework.boot.StartupInfoLogger [main] Started RetailmartApplication in 22.913 seconds (JVM running for 28.673)
+2018-12-17 14:22:46,424 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-17 14:22:46,431 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2018-12-17 14:22:46,456 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 24 ms
+2018-12-17 14:22:46,520 INFO com.mobilelive.nikhil.retailmart.service.impl.ProductServiceImpl [http-nio-8080-exec-1] request to get all products
+2018-12-17 14:22:46,586 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [http-nio-8080-exec-1] HHH000397: Using ASTQueryTranslatorFactory
+2018-12-17 14:32:58,947 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-48] Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-17 14:32:58,949 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-48] Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-12-17 14:32:58,950 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [Thread-48] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2018-12-17 14:32:58,960 INFO com.zaxxer.hikari.HikariDataSource [Thread-48] HikariPool-1 - Shutdown initiated...
+2018-12-17 14:32:58,963 INFO com.zaxxer.hikari.HikariDataSource [Thread-48] HikariPool-1 - Shutdown completed.
+2018-12-17 14:33:27,109 INFO org.springframework.boot.StartupInfoLogger [main] Starting RetailmartApplication on PUNnsharma92HTD6.local with PID 18810 (/Users/nsharma/practiseWorkspace/retailmart/target/classes started by nsharma in /Users/nsharma/practiseWorkspace/retailmart)
+2018-12-17 14:33:27,112 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2018-12-17 14:33:27,566 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-17 14:33:27,613 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 42ms. Found 1 repository interfaces.
+2018-12-17 14:33:27,859 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dd1758a0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-17 14:33:28,065 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2018-12-17 14:33:28,080 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-17 14:33:28,089 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2018-12-17 14:33:28,089 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-17 14:33:28,104 INFO org.apache.juli.logging.DirectJDKLog [main] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/nsharma/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-12-17 14:33:28,174 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2018-12-17 14:33:28,174 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1038 ms
+2018-12-17 14:33:28,266 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2018-12-17 14:33:28,373 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2018-12-17 14:33:28,483 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-12-17 14:33:28,523 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.7.Final}
+2018-12-17 14:33:28,524 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2018-12-17 14:33:28,631 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-12-17 14:33:28,741 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-12-17 14:33:29,195 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [main] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@6a32191e'
+2018-12-17 14:33:29,197 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-12-17 14:33:29,509 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-17 14:33:29,537 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-12-17 14:33:29,610 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2018-12-17 14:33:29,687 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2018-12-17 14:33:29,709 INFO org.apache.juli.logging.DirectJDKLog [main] Using a shared selector for servlet write/read
+2018-12-17 14:33:29,718 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-17 14:33:29,722 INFO org.springframework.boot.StartupInfoLogger [main] Started RetailmartApplication in 22.903 seconds (JVM running for 28.487)
+2018-12-17 14:34:11,156 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-17 14:34:11,158 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2018-12-17 14:34:11,165 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 7 ms
+2018-12-17 14:34:11,246 INFO com.mobilelive.nikhil.retailmart.service.impl.ProductServiceImpl [http-nio-8080-exec-1] request to get all products
+2018-12-17 14:34:11,306 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [http-nio-8080-exec-1] HHH000397: Using ASTQueryTranslatorFactory
+2018-12-17 14:37:46,637 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-49] Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-17 14:37:46,639 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-49] Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-12-17 14:37:46,640 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [Thread-49] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2018-12-17 14:37:46,655 INFO com.zaxxer.hikari.HikariDataSource [Thread-49] HikariPool-1 - Shutdown initiated...
+2018-12-17 14:37:46,658 INFO com.zaxxer.hikari.HikariDataSource [Thread-49] HikariPool-1 - Shutdown completed.
