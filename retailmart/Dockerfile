@@ -1,7 +1,7 @@
 FROM openjdk:8-jre
 MAINTAINER Nikhil Sharma <nikhil2489@gmail.com>
 
-
+EXPOSE 8080
 ENTRYPOINT ["/usr/bin/java", "-jar", "/usr/share/myservice/retailmart.jar"]
 
 # Add Maven dependencies (not shaded into the artifact; Docker-cached)

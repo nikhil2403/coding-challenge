@@ -2,8 +2,6 @@ package com.mobilelive.nikhil.retailmart.service;
 
 import com.mobilelive.nikhil.retailmart.domain.Product;
 import com.mobilelive.nikhil.retailmart.wrapper.ProductWrapper;
-import org.springframework.stereotype.Service;
-import javax.transaction.Transactional;
 import java.util.List;
 
 /**

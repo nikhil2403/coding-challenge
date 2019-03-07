@@ -5,8 +5,10 @@ import com.amazonaws.services.lambda.runtime.RequestHandler;
 import com.mobilelive.nikhil.retailmart.wrapper.ProductWrapper;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cache.annotation.EnableCaching;
 
 @SpringBootApplication
+@EnableCaching
 public class RetailmartApplication implements RequestHandler<ProductWrapper,ProductWrapper> {
 
     public static void main(String[] args) {

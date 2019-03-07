@@ -1,8 +1,11 @@
 package com.mobilelive.nikhil.retailmart.wrapper;
+
+import java.io.Serializable;
+
 /**
  * wrapper class for Product to send in response
  */
-public class ProductWrapper {
+public class ProductWrapper implements Serializable {
 
     private Long id;
 
